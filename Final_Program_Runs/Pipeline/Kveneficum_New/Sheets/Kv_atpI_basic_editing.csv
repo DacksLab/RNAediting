@@ -1,0 +1,14 @@
+position,codon position,genome base,mRNAbase,genome codon,mRNA codon,genome amino acid,mRNA amino acid,substitution score,in a polyT tract,in a tract with 70 percent T residues
+
+427,1,A,G,ACT,GCT,T,A,0,N,Y
+439,1,A,G,AAT,GGT,N,G,0,N,N
+440,2,A,G,AAT,GGT,N,G,0,N,N
+443,2,T,C,TTC,TCC,F,S,-2,N,N
+448,1,A,G,ATA,GTA,I,V,3,N,N
+460,1,A,G,ATT,GTT,I,V,3,N,Y
+500,2,A,G,AAT,AGT,N,S,1,N,Y
+556,1,A,G,ATT,GTT,I,V,3,N,N
+604,1,A,G,ATT,GTT,I,V,3,N,N
+608,2,T,C,GTT,GCT,V,A,0,N,N
+610,1,A,G,ATT,GTT,I,V,3,N,N
+622,1,A,G,ATA,GTA,I,V,3,N,N

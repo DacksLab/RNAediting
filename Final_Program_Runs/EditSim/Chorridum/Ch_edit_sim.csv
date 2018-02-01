@@ -1,0 +1,5 @@
+gene,number nucleotide edits,number AA edits,average number sim AA edits,average edit score,average sim edit score,frequency of significant editing,
+
+Ch_psaA,104,325,294.75,-2.08,-2.24,0.00
+Ch_psbB,79,71,67.66,1.46,-3.00,1.00
+Ch_psbE,13,10,10.45,0.30,-2.66,0.29

@@ -1,0 +1,8 @@
+name,percent above average edits,number obs,DF (N-2),nucleotide pearson correlation,nucleotide t value,amino acid pearson correlation,amino acid t value
+
+Km_atpA_trimmed,62.79,798,796,-0.189666,5.450049,0.202707,5.840304
+Km_atpB_trimmed,93.23,626,624,-0.237492,6.107273,-0.464986,13.119973
+Km_psbA_trimmed,69.50,608,606,-0.012685,0.312295,0.255853,6.515204
+Km_psbC_trimmed,74.78,1315,1313,-0.419299,16.735686,-0.509490,21.455029
+Km_psbD_trimmed,81.30,301,299,0.276207,4.969381,0.167171,2.931920
+Km_psbE_trimmed,0.00,22,20,0.000000,0.000000,0.000000,0.000000

@@ -1,0 +1,3 @@
+name,percent above average edits,number obs,DF (N-2),nucleotide pearson correlation,nucleotide t value,amino acid pearson correlation,amino acid t value
+
+Lp_psbA,100.00,988,986,0.196026,6.277118,0.162946,5.185908

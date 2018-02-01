@@ -1,0 +1,15 @@
+,gene,num AA changes,num identical before,num identical after,num similar before,num similar after,avgerage edit score diff
+Ch_Ac,psbB,71.0,5,24,27,43,1.37
+Ch_Ac,psbE,10.0,3,2,3,6,1.20
+Ch_Ct,psaA,89.0,11,31,33,49,1.38
+Ch_Ct,psbB,71.0,5,26,26,42,1.49
+Ch_Ct,psbE,10.0,1,2,3,3,0.30
+Ch_Eh,psaA,89.0,12,29,31,48,1.35
+Ch_Eh,psbB,71.0,5,25,26,42,1.46
+Ch_Eh,psbE,10.0,1,2,3,3,0.30
+Ch_Pt,psaA,89.0,11,30,32,49,1.36
+Ch_Pt,psbB,71.0,5,27,25,42,1.56
+Ch_Pt,psbE,10.0,2,2,4,4,0.30
+Ch_Vb,psaA,90.0,8,28,33,45,1.16
+Ch_Vb,psbB,71.0,6,26,28,40,1.32
+Ch_Vb,psbE,10.0,2,2,4,4,0.40

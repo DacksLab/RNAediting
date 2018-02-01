@@ -1,0 +1,186 @@
+#NEXUS
+[written Tue Jun 20 15:05:27 BST 2017 by Mesquite  version 3.01 (build 658) at glaroam2-172-2.wireless.gla.ac.uk/172.30.172.2]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=6;
+	TAXLABELS
+		'Pl_psbB_gen' 'Pl_psbB_mrna' taxon_3 codon_pos gen_res rna_res 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=1439;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	'Pl_psbB_gen' TTAGTTTTACCTTGGTTTAGAATCCATGTTATAATTCTCAATGATCCAGGACGTATTATATCTGTACATATATTTCACTCAGCTTTAGTTTCAGGTTGGTCTAAGATAATGTTGTTGTATGAGTTGACTTTACTTAATTTTACAGACCCTGTGTATAATCCCATTTGGAGGCAAGGTTGTTTTGTCTTGCCTTGGTCATCACGCTTAGGTATTATTAAATCATGGTTTCTTTGGTCCTTAGGAATAGACTTTTCATTTACTATTTACTGGTCACTAGAAGTTGTTTTGGCTATGCATGTTTTACTTTCAGGTTTATTAGTTTTATCAGCGTATTGGCATTGGTCATATTGGGACTTAGAGTTATTTATTGGTACAGTTTCAGGTTTGTTAGCTTTAGATCTTAATAGGATATTTGGTATTCATCTAGTTTTAGCTTCTATATTATGCATGGGTTTTGGAGTTATACATTTAACTGGTTATTCTGGTCCTGGTATGTGGACAACAGATTCTTTTGGTTTAGTAGGATGTGCAAGAGATATAAAACCTGTATATTCTTTTATTGGTCTTACATTTTATTGCTATGGTTCAATAACTTCTCATCATATTGCTGCTGGTTGGCTTAGGGTTATAATTGGTTTATGGCATGTTTCTACAAGACCTGGTCCTTGGTTTTATCATCTGTTGGTGATGTATAATATTGAAGCAGTCTTATCTTCTAGTATAGTTTCTATATTATCAGTAGCTGCTACTATATCATCATGTATATGGTTTGGGTCTATCACATCTTCTATAGAGCTTGTAGGTTTAACTAGATATCAGTGGGACAATGGTTACTTTTCTAATGATATTCAAAGAAGAGTCAACATGAACTATGGATATAAACTGAACAGAGCATTTAACCTGATACCTGATAAATTAATTCTTTATGATTATATTGGTAATAATCCAGCTAAGGGTGGTTTATTTCGAGTTGGTCCTATTACTAAAGGAGATGGTATTGTACAGAATTGGTTAGGTCATATGCTATTTGAAATAGGTAGTTTATTATTATTGGTTAGAAGAATGCCATCTTTCTTTGAAACCTTTCCAGTTATATTGTTAGATCAAGCAGGAGTTGTTAGAGCAGATATTCCTTTTCGTCGTGCTGAATCTAGGTACAGTCTAGAGCAAACACATGTTATATTAGAGTTTCAAGGTGGTGTATATAATAGAGCTGAATATTCATCACCATCTATAATAAAGAGCTATGCAAGGAAAGCACAGTTTGGTGAACTATTCACTTTTGAACAGAGTTCTTATTGTTCAGAAGGATTGTATAGAACATCTTCTAGATGCTGGTATAGCTTCATCCATATTTCTTTAGCATTTGTATTTCTATTTGGACATCTCTGGCATGCTGGACGTTCACTATACAGAGATCTATGGATAGGTATATAG--
+	'Pl_psbB_mrna' TTGACTTTACCTTGGTTTAGAGTCCATATTGTAGTTCTCAATGATCCAGGACGTATTATATCTGTACATATACTTCACTCAGCTTTAGTTTCAGGTTGGTCTGGGGTAATGTTGTTGTATGAGTTGGTCTTACTTGATCCTACAGACCCTGTGTATAATCCCATTTGGAGGCAAGGTTGTTTTGTCTTGCCTTGGTCATCACGCTTAGGTGTTGTTAAATCATGGTTTTCTTGGTCCTTAGGAATAGACTTTTCATCTACTACTTACTGGTCACTAGAAGTTGTTTTGGCTGCGCATATTTTACTTTCAGGTTTATTAGTTTTATCAGCGTATTGGCATTGGTCATATTGGGACTTAGAGTTATTTATTGGTACAGCTTCAGGTTTGTTAGTTTTAGATCTTAATAGGATATTTGGTATTCATCTAACTTTAGCTTCTATATTATGCATGGGTTTTGGAATTGCACATTTAACTGGTTATTCTGGTCCTGGTATGTGGACAACAGATTCTTTTGGTTTAGTAGGATGTGTAAGAAATGTAAAACCTGTATATTCTCTTGTTGGTCTTACACCTTATTGCTATGGTTCAATAACTTCTCATCATATTGCTGCTGGTTGGCTTGGAATTATAATTGGTTTATGGCATATTTCTACAAGACCTGGTCCTTGGCTTTATCGTCTGTTGGTGATGTATAATATTGAAGCAGTCTTATCTTCTAGTATAGCTTCTGTATTATCAGTAGCTGCTATTACATCATCATGCATGTGGTTTGGGTCTGTCACATCTTCTATAGAGCTTGTAGGTCCAACTAGATATCAGTGGGACAATGGTTACTTTTCTAATGATATTCAAAGAAGAGTCAACATGAACTATGGATATAGATTGAACAGAGCATTTAACCTGATACCTGATAAATTGGTTCTTTATGATTATGTTGGTAATAATCCAGCTAAGGGTGGTTTATTTCGAGCTGGTCCTATTATTAAAGGAGATGGTATTGTACAGAATTGGTTAGGTCATACGCTATTTGAAATAGGTAGTTCACCATTATTGGTTAGAAGAATGCCATCTTTCTTTGAAACCTTTCCAGTTATATTGTTAGATCAAGCAGGAACTGTTAGAGCAGATATTCCTTTTCGTCGTGCTGAATCTAGGTACAGTCTAGAGCAAACACATGTTACATTAGGGTTTCAAGGTGGTATATATGACGGAGCTGAATATTCATCACCATCTATAGTAAAGAGCTATGCAAGGAAAGCACAGTTTGGTGAACTATTCACTTTTGAACAGAGTTCTTGTTGTTCAGAAGGATTGTATAGAACATCTTCTAGATGCTGGTATAGCTTCACCCATACTTCTTTAGTATTCATATTCCTATTTGGACATCTCTGGCATGCTGGACGTTCACTATACAGAGATCTATGGGTAGGTATATAG--
+	taxon_3       -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	codon_pos     atgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatgatg--
+	gen_res       --agt----------------a-----g--a--a--------------------------------------t-----------------------------aa-a--------------------act------a--tt----------------------------------------------------------------------a--a--------------ct--------------------------t-----t----------------------------at----g------------------------------------------------------------------------------t--------------c----------------------------------gt-------------------------------g--at-----------------------------------------------------------------c----g--a-----------------t--a-----------tt-------------------------------------------------a-gg--------------------g-----------------------t------a-----------------------------------------------t----a------------------c--t---------t--a------------a--------------------------tt--------------------------------------------------------------------------a-c----------------------------------aa--------------a------------------------------------t-----------c--------------------------------------t--------------------t-tt-------------------------------------------------------------------gt-----------------------------------------------------------------t-----a-------------g-----a-ta--------------------------a------------------------------------------------------------a--------------------------------------------------t-----t--------c---tg----t---------------------------------------------------a-------------
+	rna_res       --gac----------------g-----a--g--g--------------------------------------c-----------------------------gg-g--------------------gtc------g--cc----------------------------------------------------------------------g--g--------------tc--------------------------c-----c----------------------------gc----a------------------------------------------------------------------------------c--------------t----------------------------------ac-------------------------------a--gc-----------------------------------------------------------------t----a--g-----------------c--g-----------cc-------------------------------------------------g-aa--------------------a-----------------------c------g-----------------------------------------------c----g------------------t--c---------c--g------------g--------------------------cc--------------------------------------------------------------------------g-t----------------------------------gg--------------g------------------------------------c-----------t--------------------------------------c--------------------c-cc-------------------------------------------------------------------ac-----------------------------------------------------------------c-----g-------------a-----g-cg--------------------------g------------------------------------------------------------g--------------------------------------------------c-----c--------t---ca----c---------------------------------------------------g-------------
+
+;
+
+
+
+END;
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 -  1439;
+
+END;
+
+BEGIN NOTES;
+
+	TAXABITS   TAXA = Taxa NAME = newlyAddedTaxon on =  1 -  2;
+
+END;
+
+BEGIN CODONS;
+	CODESET * UNTITLED   =  universal:  1 -  1439;
+
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Jukes-Cantor':  1 -  1439;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1497967527772;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 8978989280467749669;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 2431632182110735189;
+			mqVersion 301;
+			checksumv 0 3 1850099653 null  getNumChars 1439 numChars 1439 getNumTaxa 6 numTaxa 6   short true   bits 1152921504606846991   states 15   sumSquaresStatesOnly 125755.0 sumSquares -3.414953496645481E21 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false true 100;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1436 820;
+			setLocation 0 22;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #2431632182110735189 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1436 748;
+					setLocation 0 22;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges off;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  10 5 10 10 10 5 5 10 10 10 5 10;
+				endTell;
+				getEmployee #mesquite.molec.ColorByAA.ColorByAA;
+				tell It;
+					emphasizeDegeneracy off;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

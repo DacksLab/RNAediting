@@ -1,0 +1,5 @@
+gene,GC before,GC after,nucleotide length,amino acid length,number edits,percent edits,first position edits,second position edits,third position edits,percent edits in first two positions,percent non-synonymous edits,number amino acid edits,percent amino acid edits,average edit score,fraction polyT before,fraction polyT after,fraction 70 percent polyT before,fraction 70 percent polyT after,
+
+psaA,37.10,40.81,1329,443,104.0,7.83,65,33,6,94.23,95.19,90,20.32,0.00,1.81,2.04,2.05,1.52
+psbB,37.80,40.51,1439,479,79.0,5.49,45,29,5,93.67,93.67,71,14.82,0.46,2.44,2.02,2.45,1.75
+psbE,34.55,35.45,220,72,13.0,5.91,8,4,1,92.31,92.31,10,13.89,0.15,3.74,3.74,2.84,0.47

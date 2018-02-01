@@ -1,0 +1,8 @@
+gene,number nucleotide edits,number AA edits,average number sim AA edits,average edit score,average sim edit score,frequency of significant editing,
+
+Ht_atpA,6,5,4.83,2.40,-2.50,0.71
+Ht_petB,1,1,1.00,-4.00,-3.91,0.00
+Ht_petD,5,5,4.94,3.00,-2.30,0.51
+Ht_psbC,4,3,2.10,1.67,-3.34,0.17
+Ht_psbD,2,2,1.81,3.00,-5.41,0.00
+Ht_psbE,2,2,1.29,3.50,-4.58,0.00

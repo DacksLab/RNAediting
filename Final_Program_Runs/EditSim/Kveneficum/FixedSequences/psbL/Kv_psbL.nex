@@ -1,0 +1,86 @@
+#NEXUS
+[written Wed Jan 10 21:43:47 GMT 2018 by Mesquite  version 3.01 (build 658) at christens-mbp/192.168.0.11]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=2;
+	TAXLABELS
+		'Kv_psbL_gen' 'Kv_psbL_mrna' 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=220;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	'Kv_psbL_gen' A--------------------TGGTAAAAGAAAATGAAAGTAGAGAAAAAGAGCATCCTTGGGGAAAACGATTAAAATCTGGAAGAGAAAATCCGTATAGTCGGGAGGTAGAATTAAATATAAGTTCCACTTATATTTTACTTATTTTAGTTTTTATTTTAAATTTATTATTTTCAAGTTATGTTTTAAATTAA--------------------------
+	'Kv_psbL_mrna' ACTATGTCAGAATTTATATTCCGGCAAAAGAAAATGGAAGTAGAGGAGAAGACCGTCCTTGGGGAAAACGATTAAGACCTGGAAGAGAAAATCCGTATAGTCGGGAGGTAGAATTAAATATAAGTTCTGCTTATATTTTACTTATTTTAGTTTTTACTTTAAATTTATTATTTTCAAGTTATGTTTTAAATTAAGAGATTTCAATATTTACAAAAGTC--
+
+;
+
+
+
+END;
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 -  220;
+
+END;
+
+BEGIN NOTES;
+
+	TAXABITS   TAXA = Taxa NAME = newlyAddedTaxon on =  1 -  2;
+
+END;
+
+BEGIN CODONS;
+	CODESET * UNTITLED   =  universal:  1 -  220;
+
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Jukes-Cantor':  1 -  220;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1515620627599;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 2053274250811947826;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 9063284909624706546;
+			mqVersion 301;
+			checksumv 0 3 2903413045 null  getNumChars 220 numChars 220 getNumTaxa 2 numTaxa 2   short true   bits 15   states 15   sumSquaresStatesOnly 10244.0 sumSquares 10244.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState true false 100;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 700 464;
+			setLocation 8 8;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		endTell;
+end;
+
+

@@ -1,0 +1,5 @@
+name,percent above average edits,number obs,DF (N-2),nucleotide pearson correlation,nucleotide t value,amino acid pearson correlation,amino acid t value
+
+Ch_psaA,92.63,2081,2079,0.729350,48.609082,0.619657,35.998054
+Ch_psbB,62.70,1410,1408,-0.528022,23.330689,-0.561739,25.478029
+Ch_psbE,61.35,167,165,-0.733457,13.860420,-0.876686,23.409056

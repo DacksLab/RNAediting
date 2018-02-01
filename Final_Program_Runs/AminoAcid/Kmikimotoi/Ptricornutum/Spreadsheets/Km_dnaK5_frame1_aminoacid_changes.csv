@@ -1,0 +1,12 @@
+AA position,reference AA,genomic AA,transcript AA,transcript AAidentical before,identical after,genomic AA similar,transcript AA similar,edit score difference
+
+3,T,S,R,N,N,Y,N,-2
+11,T,T,A,Y,N,Y,N,-5
+12,F,I,L,N,N,N,N,0
+23,V,I,V,N,Y,Y,Y,1
+25,I,V,L,N,N,Y,Y,-1
+34,I,I,L,Y,N,Y,Y,-2
+35,F,L,V,N,N,N,N,-1
+70,T,K,E,N,N,N,N,0
+71,T,I,T,N,Y,N,Y,6
+74,L,F,L,N,Y,N,Y,4

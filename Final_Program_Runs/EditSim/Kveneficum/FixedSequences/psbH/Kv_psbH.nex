@@ -1,0 +1,86 @@
+#NEXUS
+[written Wed Jan 10 21:40:02 GMT 2018 by Mesquite  version 3.01 (build 658) at christens-mbp/192.168.0.11]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=2;
+	TAXLABELS
+		'Kv_psbH_gen' 'Kv_psbH_mrna' 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=475;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	'Kv_psbH_gen' --------------------------------------------------------------------------------------------------------------------------------------------------------------------ATGACAACAACTTTAATCTCATCTCAAGTAAAAGTTTCAGTAAATAAAAATTTTCCTTGGAAAAAACAAAATATTAATAAATTATCTTTTTTAGATCCGCAAAGATACAAACCTAATCCGCAATTGAGTCAATTGTTAGAACCTCTTAATAAACGAAAAGCGAATCATGTAATAGTAGATTGGGGTACTATACCATTAATGGTTATTGTAATGATATCGTTTTTATTCTTTTTAATTATTATTATATTAATTTATAACGGGGCTCTTCTCTATGAGAATATTCCTGTAACGTGGTAA--------------
+	'Kv_psbH_mrna' ATCCGATATTTACATTTCGATGGTTAACAATACATGCGTTAGCGGTTCCAACTGTTACATTTCTTGGTGCAATTGCTTCCATGCAATTTATTCAACGTTAACAATTGCAATATTGTGTATTATTTCATCTTTTTTTTTATTATAATGAATATACAAAATAACTTATGACAACAACTTTAATCTCATCTCAAGTAAAAGTTTCAGTGAATAAAAATTTTCCTTGGAAAAAACAAAATATTGATAAATTATCTCTTTTAGATCCGCAAAGATACAAACCTAATCCGCAATTGGGTCAATTGTTAGAACCTCTTAATAAACGGGAAGCGGGTCGTGTAGTAGCAGGTTGGGGTACTATACCATTAATGGCTATTGTAATGATATTGTTTTTATTCTTTTTAATTATTATTACATTAATTTATAACGGGGCTCTTCTCTATGAGAGTGTTCCTGTAACGTGGTAATTTTTTGTATTA--
+
+;
+
+
+
+END;
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 -  475;
+
+END;
+
+BEGIN NOTES;
+
+	TAXABITS   TAXA = Taxa NAME = newlyAddedTaxon on =  1 -  2;
+
+END;
+
+BEGIN CODONS;
+	CODESET * UNTITLED   =  universal:  1 -  475;
+
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Jukes-Cantor':  1 -  475;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1515620402245;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 3585093222609810794;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 8329334916260745934;
+			mqVersion 301;
+			checksumv 0 3 2604508829 null  getNumChars 475 numChars 475 getNumTaxa 2 numTaxa 2   short true   bits 15   states 15   sumSquaresStatesOnly 20975.0 sumSquares 20975.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState true false 100;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 700 464;
+			setLocation 8 8;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		endTell;
+end;
+
+

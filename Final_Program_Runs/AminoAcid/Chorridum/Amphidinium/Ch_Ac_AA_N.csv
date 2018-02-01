@@ -1,0 +1,4 @@
+gene,num AA changes,num identical before,num identical after,num similar before,num similar after,avgerage edit score diff
+
+psbB,71.0,5,24,27,43,1.37
+psbE,10.0,3,2,3,6,1.20

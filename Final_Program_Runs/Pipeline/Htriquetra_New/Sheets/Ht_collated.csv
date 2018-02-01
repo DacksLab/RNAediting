@@ -1,0 +1,25 @@
+,position,codon position,genome base,mRNAbase,genome codon,mRNA codon,genome amino acid,mRNA amino acid,substitution score,in a polyT tract,in a tract with 70 percent T residues
+Ht_atpA,16,1,A,G,AAA,GAA,K,E,1,N,N
+Ht_atpA,53,2,A,C,TAA,TCA,STOP,S,0,N,N
+Ht_atpA,84,3,A,G,ATA,ATG,I,M,1,N,N
+Ht_atpA,91,1,A,G,ATC,GTC,I,V,3,N,N
+Ht_atpA,344,2,T,C,GTT,GCT,V,A,0,N,N
+Ht_atpA,1433,2,A,G,CAT,CGT,H,R,0,N,N
+Ht_petB,380,2,T,C,GTT,GCT,V,A,0,N,N
+Ht_petD,124,1,A,G,ATA,GTA,I,V,3,N,N
+Ht_petD,433,1,A,G,ATT,GTT,I,V,3,N,N
+Ht_petD,448,1,G,C,GCT,CCT,A,P,-1,N,N
+Ht_petD,455,2,T,C,ATT,ACT,I,T,-1,N,N
+Ht_petD,457,1,A,G,AAA,GAA,K,E,1,N,N
+Ht_psaA,513,3,A,T,GTA,GTT,V,V,4,N,N
+Ht_psaA,1563,3,C,T,TAC,TAT,Y,Y,7,N,N
+Ht_psaA,1957,1,A,G,ATT,GCT,I,A,-1,N,Y
+Ht_psaA,1958,2,T,C,ATT,GCT,I,A,-1,N,Y
+Ht_psbC,3,3,A,G,ATA,ATG,I,M,1,N,N
+Ht_psbC,7,1,A,G,ATT,GTT,I,V,3,N,N
+Ht_psbC,1005,3,A,G,GAA,GAG,E,E,5,N,N
+Ht_psbC,1330,1,G,C,GGT,CGT,G,R,-2,N,N
+Ht_psbD,137,2,T,C,GTT,GCT,V,A,0,N,N
+Ht_psbD,445,1,T,C,TTT,CTT,F,L,0,Y,N
+Ht_psbE,27,3,A,G,ATA,ATG,I,M,1,N,N
+Ht_psbE,32,2,G,C,AGA,ACA,R,T,-1,N,N

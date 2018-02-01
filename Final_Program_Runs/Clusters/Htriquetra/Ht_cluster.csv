@@ -1,0 +1,12 @@
+name,length,number edits,frequency of significant edits
+
+Ht_atpA_mrna,1445,6,0.87
+Ht_petB_mrna,659,1,0.13
+Ht_petD_mrna,476,5,0.67
+Ht_psaA_mrna,1967,4,0.98
+Ht_psaB_mrna,2048,0,0.00
+Ht_psbA_gen,929,0,0.00
+Ht_psbB_mrna,1445,0,0.00
+Ht_psbC_mrna,1382,4,0.99
+Ht_psbD_mrna,1073,2,0.14
+Ht_psbE_mrna,257,2,0.51

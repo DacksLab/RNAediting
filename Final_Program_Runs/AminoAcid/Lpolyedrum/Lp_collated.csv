@@ -1,0 +1,6 @@
+,gene,num AA changes,num identical before,num identical after,num similar before,num similar after,avgerage edit score diff
+Lp_Ac,psbA,1.0,1,0,1,1,-3.00
+Lp_Ct,psbA,1.0,0,1,1,1,4.00
+Lp_Eh,psbA,1.0,0,1,1,1,4.00
+Lp_Pt,psbA,1.0,0,1,1,1,4.00
+Lp_Vb,psbA,1.0,0,1,1,1,4.00

@@ -1,0 +1,87 @@
+#NEXUS
+[written Wed Jan 10 21:19:43 GMT 2018 by Mesquite  version 3.01 (build 658) at christens-mbp/192.168.0.11]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=3;
+	TAXLABELS
+		'Eh_atpF_ref' 'Kv_atpF_gen' 'Kv_atpF_mrna' 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=554;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	'Eh_atpF_ref' ATGCATCTATACACTCAAACTCTA-AATACTGTCACAGGGCTCCTAGCGAATGAAGGGTCCTTCGGTCTGAATTTAGATATCTTTGAAGCGAACCTTATTAACATTGTAATACTTGGCGGTGGAATTTTTAAGCTTGGTAGTACAGCGTTGTCGGAAAGTTTAGCCGAAAGACAACAAAAAATTGTAGGTGCAATTCAAGAATCTGAAGAACGTCTAGAACAGGCTGTAACTAAATTAACAGAAAGCGAAAAGCAACTAGCC-CAAGCGCAACTTGTAATCACTTCTTTAAAAGAA-GAAGCG-GAAGCAACTGCGAAGCAAGTTAAAAGTGGAATTTTAACCGATGGAAAAGCCGAAATCGAGCGCTTAACTGCGTCGGCAAAAGGTCAAATTGGAACTATTGAAAAGAAAATCCGTAAGGAAATTTCAGAGTATGTTGT-----TACTT--TGGCTCTTCAACGTGTAACTCTA-CAACTTGAGGGTAAATTAGACGTTAATTTACAGCAACAAATTATCGATAAAAATATTTCTAAATTAGAAGGCTAA--
+	'Kv_atpF_gen' ATGAATACACTATTTGCTACTTTATTAGACTATTTCGATTCAATTGAAGTA-GAAGGATCC---------------AACATTTTTCAAATAAATTTAATAAATATTATTATTTTCACTATCGGACTTATTTATATACTCGGCAGCGCCTTTGTAGTAGGTTCATATAAGCGTCAAAAAGAAATTGTG---------CAAGAATATGCAAAGAGT----AACA-----CAGCAAAATC-----CAAGTATAAAA-ATCTCGCTGCACGTGTGGCTT------ATTTATCTAAAATAACAAAACGTGAAAAAGCT---------ATTAAA----GAATT-----------AAAGGCCGAA----------------------CAAAAATT--AATCAAAAGGGTTGAAAATATGATAAATAAAAAATTT------TATGTCCCCGACATATTTAATGAATCTCTACCGT----CTCTACCCGTTTGA---------------------------------------------------------------------
+	'Kv_atpF_mrna' -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GGT----AACA-----CAGCAAAATC-----CAAGTGTAGAA-ATCTCGCTGCACGTGTGGCTT------ATTTATCTAAAATAACAAAACGTGAAAAAGCT---------ATTAAA----GAATT-----------AGAGGCCGAA----------------------CAAAAATT--AATCAAAAGGGTTGAAAGTATGATGAATAAAAAAAATCT----TATGTCCCCGACATATTTAATGGATCTCTACCGT----CTCTACCCGTTTGAGTTTGTATCTAACCTTGATTGGCCTGGCCGAA------------------------AACGAGGGTAA--
+
+;
+
+
+
+END;
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 -  554;
+
+END;
+
+BEGIN NOTES;
+
+	TAXABITS   TAXA = Taxa NAME = newlyAddedTaxon on =  1 -  3;
+
+END;
+
+BEGIN CODONS;
+	CODESET * UNTITLED   =  universal:  1 -  554;
+
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Jukes-Cantor':  1 -  554;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1515619183721;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 4439199338795231200;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 5125632251330129552;
+			mqVersion 301;
+			checksumv 0 3 1344157383 null  getNumChars 554 numChars 554 getNumTaxa 3 numTaxa 3   short true   bits 15   states 15   sumSquaresStatesOnly 25125.0 sumSquares 25125.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState true false 100;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 700 464;
+			setLocation 8 8;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		endTell;
+end;
+
+

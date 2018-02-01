@@ -1,0 +1,13 @@
+name,length,number edits,frequency of significant edits
+
+Pl_atpA_mrna,1407,61,0.98
+Pl_atpB_mrna,1878,150,1.00
+Pl_petB_mrna,660,35,0.87
+Pl_petD_mrna,477,31,0.94
+Pl_psaA_mrna,2103,149,1.00
+Pl_psaB_mrna,2100,139,1.00
+Pl_psbA_gen,1038,36,0.62
+Pl_psbB_mrna,1437,83,0.67
+Pl_psbC_mrna,1383,39,0.60
+Pl_psbD_mrna,1125,20,0.91
+Pl_psbE_mrna,219,4,0.65

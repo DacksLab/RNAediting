@@ -1,0 +1,23 @@
+position,codon position,genome base,mRNAbase,genome codon,mRNA codon,genome amino acid,mRNA amino acid,substitution score,in a polyT tract,in a tract with 70 percent T residues
+
+1061,2,T,C,ATG,ACG,M,T,-1,N,N
+1082,2,T,C,GTT,GCT,V,A,0,N,N
+1099,1,T,C,TAT,CAT,Y,H,2,N,N
+1103,2,A,G,TAT,TGT,Y,C,-2,N,N
+1105,1,A,G,AAT,GGT,N,G,0,N,N
+1106,2,A,G,AAT,GGT,N,G,0,N,N
+1110,3,T,C,ATT,ATC,I,I,4,N,N
+1121,2,A,G,GAT,GGT,D,G,-1,N,N
+1162,1,A,G,AAA,GAA,K,E,1,N,N
+1225,1,A,G,AAA,GAA,K,E,1,N,N
+1229,2,A,G,AAG,AGG,K,R,2,N,N
+1271,2,T,C,TTT,TCT,F,S,-2,Y,N
+1322,2,T,C,TTA,TCA,L,S,-2,N,Y
+1325,2,T,C,TTT,TCT,F,S,-2,N,Y
+1346,2,T,C,TTT,TCT,F,S,-2,N,Y
+1378,1,T,C,TTC,CTC,F,L,0,Y,Y
+1387,1,T,C,TTA,CCA,L,P,-3,N,Y
+1388,2,T,C,TTA,CCA,L,P,-3,N,Y
+1529,2,T,C,ATT,ACT,I,T,-1,Y,N
+1546,1,A,G,AGA,GGA,R,G,-2,N,N
+1549,1,C,T,CCG,TCG,P,S,-1,N,N

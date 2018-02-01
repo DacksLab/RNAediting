@@ -1,0 +1,86 @@
+#NEXUS
+[written Wed Jan 10 21:20:07 GMT 2018 by Mesquite  version 3.01 (build 658) at christens-mbp/192.168.0.11]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=2;
+	TAXLABELS
+		'Kv_atpF_gen' 'Kv_atpF_mrna' 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=428;
+	FORMAT DATATYPE = DNA GAP = - MISSING = ?;
+	MATRIX
+	'Kv_atpF_gen' ATGAATACACTATTTGCTACTTTATTAGACTATTTCGATTCAATTGAAGTAGAAGGATCCAACATTTTTCAAATAAATTTAATAAATATTATTATTTTCACTATCGGACTTATTTATATACTCGGCAGCGCCTTTGTAGTAGGTTCATATAAGCGTCAAAAAGAAATTGTGCAAGAATATGCAAAGAGTAACACAGCAAAATCCAAGTATAAAAATCTCGCTGCACGTGTGGCTTATTTATCTAAAATAACAAAACGTGAAAAAGCTATTAAAGAATTAAAGGCCGAACAAAAATTAATCAAAAGGGTTGAAAATATGATAAAT--AAAAAATTTTATGTCCCCGACATATTTAATGAATCTCTACCGTCTCTACCCGTTTGA---------------------------------------------
+	'Kv_atpF_mrna' ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------GAGGTAACACAGCAAAATCCAAGTGTAGAAATCTCGCTGCACGTGTGGCTTATTTATCTAAAATAACAAAACGTGAAAAAGCTATTAAAGAATTAGAGGCCGAACAAAAATTAATCAAAAGGGTTGAAAGTATGATGAATAAAAAAAATCTTATGTCCCCGACATATTTAATGGATCTCTACCGTCTCTACCCGTTTGAGTTTGTATCTAACCTTGATTGGCCTGGCCGAAAACGAGGGTAA--
+
+;
+
+
+
+END;
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 -  428;
+
+END;
+
+BEGIN NOTES;
+
+	TAXABITS   TAXA = Taxa NAME = newlyAddedTaxon on =  1 -  2;
+
+END;
+
+BEGIN CODONS;
+	CODESET * UNTITLED   =  universal:  1 -  428;
+
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Jukes-Cantor':  1 -  428;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1515619207089;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 2111020774297219638;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 3312111029971973683;
+			mqVersion 301;
+			checksumv 0 3 650240068 null  getNumChars 428 numChars 428 getNumTaxa 2 numTaxa 2   short true   bits 15   states 15   sumSquaresStatesOnly 13844.0 sumSquares 13844.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState true false 100;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 700 464;
+			setLocation 8 8;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		endTell;
+end;
+
+

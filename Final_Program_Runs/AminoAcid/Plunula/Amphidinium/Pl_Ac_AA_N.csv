@@ -1,0 +1,12 @@
+gene,num AA changes,num identical before,num identical after,num similar before,num similar after,avgerage edit score diff
+
+atpA,43.0,1,10,9,20,1.47
+atpB,78.0,10,17,29,33,0.67
+petB,27.0,1,12,9,15,2.37
+petD,23.0,0,8,5,11,2.61
+psaB,89.0,11,27,32,44,1.24
+psbA,23.0,4,12,7,13,2.48
+psbB,62.0,4,24,22,39,1.77
+psbC,36.0,3,16,18,24,1.14
+psbD,17.0,0,9,5,13,2.29
+psbE,3.0,0,2,2,2,2.67
